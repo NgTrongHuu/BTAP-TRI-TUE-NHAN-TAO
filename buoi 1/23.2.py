@@ -40,3 +40,4 @@ for r in results:
         [center_coords, (r['lat'], r['lon'])],
         color='blue', weight=1, opacity=0.5
     ).add_to(m)
+m.save("bai_23_2.html")
